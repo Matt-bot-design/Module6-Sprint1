@@ -1,0 +1,4 @@
+import pandas as pd # First Attempt for Data Vault Manager Sprint
+
+df = pd.read_csv("DataVault.csv", index_col=['P.No'])
+print(df)
