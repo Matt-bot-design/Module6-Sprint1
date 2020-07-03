@@ -1,0 +1,9 @@
+import pandas as pd
+
+df = pd.DataFrame({'P.No':[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15],
+                   'Product':['Simba','Coke','Cadbury','Pepper-Steak','Pear','Vanilla','Spinach','Lays','Fanta','Tex','Chicken',
+                              'Apple','Chocolate','Cabbage','Orange'],
+                   'Product-type':['Chips','Cooldrink','Chocolate','Pies','Fruit','Cupcakes','Veggies','Chips','Cooldrink',
+                                   'Chocolate','Pies','Fruit','Cupcakes','Veggies','Fruit'],
+                   'Quantities':[12,232,23,234,52,236,4237,548,329,320,321,2342,353,134,125]})
+print(df)
